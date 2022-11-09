@@ -71,6 +71,26 @@ Instead, 1 rem = 1 em = 16px
     /* 8px : 16px = 50% */
     font-size: 50%;
   }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem;
+  }
+
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 70%;
+  }
+
+  .delivered-meals {
+    justify-content: center;
+    margin-top: 3.2rem;
+  }
 }
 
 /* 
