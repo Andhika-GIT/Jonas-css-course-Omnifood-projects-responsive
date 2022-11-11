@@ -11,6 +11,10 @@
   /* Because we want header to be sticky later */
   height: 9.6rem;
   padding: 0 4.8rem;
+
+  /* to make the mobile nav stays in header */
+  position: relative;
+  overflow: hidden;
 }
 
 .logo {
