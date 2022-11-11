@@ -160,7 +160,10 @@ Instead, 1 rem = 1 em = 16px
   }
 
   .nav-open .main-nav {
+    /* shows the nav */
     opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
   }
 
   .main-nav-list {
