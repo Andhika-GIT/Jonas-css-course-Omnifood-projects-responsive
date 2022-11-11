@@ -14,7 +14,6 @@
 
   /* to make the mobile nav stays in header */
   position: relative;
-  overflow: hidden;
 }
 
 .logo {
