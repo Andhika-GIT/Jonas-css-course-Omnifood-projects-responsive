@@ -146,7 +146,14 @@ Instead, 1 rem = 1 em = 16px
 
     /* using opacity, so we can allow transition */
 
+    /* 1) hide visually */
     opacity: 0;
+
+    /* 2) make it inaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3) hide from screen readers */
+    visibility: hidden;
 
     /* transition when the nav is closed */
     transition: all 400ms;
