@@ -168,6 +168,9 @@ Instead, 1 rem = 1 em = 16px
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
+
+    /* move the mobile nav back to the screen again */
+    transform: translateX(0);
   }
 
   .nav-open .icon-mobile-nav[name="close-circle-outline"] {
