@@ -157,6 +157,10 @@ Instead, 1 rem = 1 em = 16px
 
     /* transition when the nav is closed */
     transition: all 400ms;
+
+    /* animation */
+    /* hide the nav first */
+    transform: translateX(100%);
   }
 
   .nav-open .main-nav {
