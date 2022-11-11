@@ -144,7 +144,16 @@ Instead, 1 rem = 1 em = 16px
     /* allows no transition */
     /* display: none; */
 
+    /* using opacity, so we can allow transition */
+
     opacity: 0;
+
+    /* transition when the nav is closed */
+    transition: all 400ms;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
   }
 
   .main-nav-list {
