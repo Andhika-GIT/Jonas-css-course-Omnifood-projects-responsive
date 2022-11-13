@@ -287,6 +287,11 @@ Instead, 1 rem = 1 em = 16px
   .testimonials {
     grid-template-columns: 1fr;
   }
+
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+  }
 }
 
 /* 
