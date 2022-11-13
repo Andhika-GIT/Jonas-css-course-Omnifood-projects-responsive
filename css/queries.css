@@ -261,6 +261,14 @@ Instead, 1 rem = 1 em = 16px
   .btn:visited {
     padding: 2.4rem 1.6rem;
   }
+
+  .hero-img {
+    width: 80%;
+  }
+
+  .logos img {
+    height: 1.2rem;
+  }
 }
 
 /* 
