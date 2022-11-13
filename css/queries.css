@@ -247,6 +247,14 @@ Instead, 1 rem = 1 em = 16px
   .grid--4-cols {
     grid-template-columns: 1fr;
   }
+
+  .hero {
+    padding: 0 3.2rem;
+  }
+
+  .section-hero {
+    padding: 2.4rem 0 6.4rem 0;
+  }
 }
 
 /* 
