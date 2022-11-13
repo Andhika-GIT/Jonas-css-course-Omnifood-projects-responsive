@@ -269,6 +269,16 @@ Instead, 1 rem = 1 em = 16px
   .logos img {
     height: 1.2rem;
   }
+
+  /* second step img */
+  .step-img-box:nth-child(2) {
+    grid-row: 1;
+  }
+
+  /* third step img */
+  .step-img-box:nth-child(6) {
+    grid-row: 5;
+  }
 }
 
 /* 
