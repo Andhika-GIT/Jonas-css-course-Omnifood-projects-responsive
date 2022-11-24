@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fdf2e9;
+  /* background-color: #fdf2e9; */
 
   /* Because we want header to be sticky later */
   height: 9.6rem;
@@ -79,8 +79,18 @@
   ></ion-icon>
 */
 
-.icon-mobile-nav[name="close-circle-outline"] {
+.icon-mobile-nav[name='close-circle-outline'] {
   display: none;
+}
+
+/* STICKY NAVIGATION */
+.sticky {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.97);
+  z-index: 9999;
 }
 
 /**************************/
@@ -204,7 +214,7 @@
 
 .step-img-box::before,
 .step-img-box::after {
-  content: "";
+  content: '';
   display: block;
   border-radius: 50%;
   position: absolute;
@@ -410,7 +420,7 @@
 }
 
 .pricing-plan--complete::after {
-  content: "Best value";
+  content: 'Best value';
   position: absolute;
   top: 6%;
   right: -18%;
@@ -531,12 +541,7 @@
 }
 
 .cta-img-box {
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(235, 151, 78, 0.35),
-      rgba(230, 125, 34, 0.35)
-    ),
-    url("../img/eating.jpg");
+  background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.35), rgba(230, 125, 34, 0.35)), url('../img/eating.jpg');
   background-size: cover;
   background-position: center;
 }

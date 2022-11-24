@@ -129,7 +129,7 @@ Instead, 1 rem = 1 em = 16px
   }
 
   .main-nav {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.07);
     position: absolute;
     top: 0;
     left: 0;
@@ -173,12 +173,12 @@ Instead, 1 rem = 1 em = 16px
     transform: translateX(0);
   }
 
-  .nav-open .icon-mobile-nav[name="close-circle-outline"] {
+  .nav-open .icon-mobile-nav[name='close-circle-outline'] {
     /* when nav-open class exist, change the button to close icon */
     display: block;
   }
 
-  .nav-open .icon-mobile-nav[name="grid-outline"] {
+  .nav-open .icon-mobile-nav[name='grid-outline'] {
     /* when nav-open class exist, change the button to close icon */
     display: none;
   }
