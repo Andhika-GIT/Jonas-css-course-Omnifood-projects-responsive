@@ -129,7 +129,7 @@ Instead, 1 rem = 1 em = 16px
   }
 
   .main-nav {
-    background-color: rgba(255, 255, 255, 0.07);
+    background-color: rgba(255, 255, 255, 0.24);
     position: absolute;
     top: 0;
     left: 0;
